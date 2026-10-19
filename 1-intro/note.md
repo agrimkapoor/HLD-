@@ -90,7 +90,7 @@ CDN : Content Delivery Network
 CDN = duniya bhar mein phaile edge servers ka network, jo content ki copies user ke paas rakhte hain, taaki fast delivery ho aur origin pe load kam pade.
 Origin server = Hotstar ka asli server (data center ke andar)
 
-Load Balancer : origin se edge servers pe (LB1)
+Load Balancer : origin se edge servers pe (not by LB1 ye toh direct dns hi bta dega)
 phir har locn pe : api gatway for diff services and for particular service LB2 ki konse server ko load dena this is also done by algos
 
 **DNS se edge server ya LB1 ka address milta hai**
